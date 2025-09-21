@@ -1,0 +1,201 @@
+[
+  {
+    "imgUrl": "/images/lower1.jpg",
+    "name": "Adidas",
+    "info": "Comfort fit lowers",
+    "price": "Rs. 999",
+    "rating": "4.3",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "3.6K",
+    "priceReduce": "Rs. 1999",
+    "off": "(Rs.1000 OFF)"
+  },
+  {
+    "imgUrl": "/images/lower2.jpg",
+    "name": "Anouk",
+    "info": "Floral Printed",
+    "price": "Rs. 799",
+    "rating": "4.3",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "2.9K",
+    "priceReduce": "Rs. 1599",
+    "off": "(Rs.800 OFF)"
+  },
+  {
+    "imgUrl": "/images/lower3.jpg",
+    "name": "Mitera",
+    "info": "comfortable lower",
+    "price": "Rs. 1,199",
+    "rating": "4.4",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "3.3K",
+    "priceReduce": "Rs. 2499",
+    "off": "(Rs.1300 OFF)"
+  },
+  {
+    "imgUrl": "/images/lower4.jpg",
+    "name": "Sangria",
+    "info": "Comfort fit lowers",
+    "price": "Rs. 599",
+    "rating": "4.1",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "2.4K",
+    "priceReduce": "Rs. 1299",
+    "off": "(Rs.700 OFF)"
+  },
+  {
+    "imgUrl": "/images/lower5.jpg",
+    "name": "Inddus",
+    "info": "Classic lower",
+    "price": "Rs. 1,499",
+    "rating": "4.5",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "4.1K",
+    "priceReduce": "Rs. 2999",
+    "off": "(Rs.1500 OFF)"
+  },
+  {
+    "imgUrl": "/images/lower6.jpg",
+    "name": "Chhabra 555",
+    "info": "comfortable lower",
+    "price": "Rs. 1,799",
+    "rating": "4.2",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "3.0K",
+    "priceReduce": "Rs. 3599",
+    "off": "(Rs.1800 OFF)"
+  },
+  {
+    "imgUrl": "/images/lower7.jpg",
+    "name": "Libas",
+    "info": "comfortable lower",
+    "price": "Rs. 499",
+    "rating": "4.0",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "2.1K",
+    "priceReduce": "Rs. 999",
+    "off": "(Rs.500 OFF)"
+  },
+  {
+    "imgUrl": "/images/lower8.jpg",
+    "name": "Libas",
+    "info": " Daily Wear ",
+    "price": "Rs. 499",
+    "rating": "4.0",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "2.1K",
+    "priceReduce": "Rs. 999",
+    "off": "(Rs.500 OFF)"
+  },
+  {
+    "imgUrl": "/images/men-wear1.jpg",
+    "name": "Puma",
+    "info": "Athleisure T-shirt",
+    "price": "Rs. 799",
+    "rating": "4.1",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "3.1K",
+    "priceReduce": "Rs. 2222",
+    "off": "(Rs.1423 OFF)"
+  },
+  {
+    "imgUrl": "/images/men-wear2.jpg",
+    "name": "Levis",
+    "info": "Pure cotton Printed T-shirt",
+    "price": "Rs. 344",
+    "rating": "4.2",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "3.1K",
+    "priceReduce": "Rs. 899",
+    "off": "(Rs.555 OFF)"
+  },
+  {
+    "imgUrl": "/images/men-wear3.jpg",
+    "name": "Zara",
+    "info": "Trendy streetwear",
+    "price": "Rs. 1,199",
+    "rating": "4.4",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "2.5K",
+    "priceReduce": "Rs. 2999",
+    "off": "(Rs.1800 OFF)"
+  },
+  {
+    "imgUrl": "/images/men-wear4.jpg",
+    "name": "Allen Solly",
+    "info": "Classic formal shirt",
+    "price": "Rs. 1,499",
+    "rating": "4.6",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "4.2K",
+    "priceReduce": "Rs. 3499",
+    "off": "(Rs.2000 OFF)"
+  },
+  {
+    "imgUrl": "/images/collection1.jpg",
+    "name": "Flying Machine",
+    "info": "Denim jacket",
+    "price": "Rs. 1,899",
+    "rating": "4.3",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "3.8K",
+    "priceReduce": "Rs. 3999",
+    "off": "(Rs.2100 OFF)"
+  },
+  {
+    "imgUrl": "/images/collection2.jpg",
+    "name": "Tommy Hilfiger",
+    "info": "Premium polo",
+    "price": "Rs. 2,299",
+    "rating": "4.7",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "5.1K",
+    "priceReduce": "Rs. 4999",
+    "off": "(Rs.2700 OFF)"
+  },
+  {
+    "imgUrl": "/images/collection3.jpg",
+    "name": "H&M",
+    "info": "Casual wear for men",
+    "price": "Rs. 599",
+    "rating": "4.0",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "2.9K",
+    "priceReduce": "Rs. 1599",
+    "off": "(Rs.1000 OFF)"
+  },
+  {
+    "imgUrl": "/images/collection5.jpg",
+    "name": "Nike",
+    "info": "Sportswear T-shirt",
+    "price": "Rs. 749",
+    "rating": "4.5",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "4.0K",
+    "priceReduce": "Rs. 1999",
+    "off": "(Rs.1250 OFF)"
+  },
+  {
+    "imgUrl": "/images/collection6.jpg",
+    "name": "Roadster",
+    "info": "Casual printed wear",
+    "price": "Rs. 699",
+    "rating": "4.0",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "2.7K",
+    "priceReduce": "Rs. 1499",
+    "off": "(Rs.800 OFF)"
+  },
+  {
+    "imgUrl": "/images/collection9.jpg",
+    "name": "Roadster",
+    "info": "Casual printed wear",
+    "price": "Rs. 699",
+    "rating": "4.0",
+    "ratingImg": "/images/star.png",
+    "ratingCount": "2.7K",
+    "priceReduce": "Rs. 1499",
+    "off": "(Rs.800 OFF)"
+  }
+]
+
