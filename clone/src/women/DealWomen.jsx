@@ -38,6 +38,15 @@ export const DealWomen = () => {
         }}
         modules={[Autoplay, Pagination]}
         className="mySwiper"
+
+         breakpoints={{
+                        1200: { slidesPerView: 6 },  // desktops
+                        1024: { slidesPerView: 4 },  // tablets landscape
+                        768: { slidesPerView: 3 },   // tablets portrait
+                        576: { slidesPerView: 2 },   // big phones
+                        480: { slidesPerView: 1 },     // small phones
+                        360: { slidesPerView: 1 }, 
+                    }}
       >
 
         {images.map((item, index) => (

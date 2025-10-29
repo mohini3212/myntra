@@ -1,7 +1,7 @@
 import { IoIosSearch } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa";
 import { HiOutlineShoppingBag } from "react-icons/hi";
-import {  CgProfile } from "react-icons/cg";
+import { CgProfile } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import women from "../Api/women.json";
@@ -50,7 +50,7 @@ export const Navbar = () => {
         <main className="shadow-custom">
             <div className="container">
                 <div className="nav-section grid grid-two-cols">
-                  
+
                     <div className="d-flex align-items-center nav-link">
                         <div className="logo">
                             <NavLink to="/frontpage">
@@ -106,7 +106,7 @@ export const Navbar = () => {
                         {/* Icons */}
                         <div className="header-icon ">
                             <div className="icon">
-                                <h5 style={{textAlign:"center",marginRight:"2rem"}}><FaRegHeart /></h5>
+                                <h5 style={{ textAlign: "center", marginRight: "2rem" }}><FaRegHeart /></h5>
                                 {/* <p className="profile">Profile</p> */}
                                 {/*  */}
                                 <div className="dropdown">
@@ -117,8 +117,8 @@ export const Navbar = () => {
                                             <p>To access account and manage order</p>
                                             <button className="btn5">LOGIN/SIGNUP</button>
                                         </div>
-                                        
-                                        <h6 style={{borderTop:"1px solid rgba(181, 181, 181, 0.67)",paddingTop:"2rem",marginTop:"1rem"}}>Orders</h6>
+
+                                        <h6 style={{ borderTop: "1px solid rgba(181, 181, 181, 0.67)", paddingTop: "2rem", marginTop: "1rem" }}>Orders</h6>
                                         <h6>Wishlist</h6>
                                         <h6>Gift Cards</h6>
                                         <h6>Contact Us</h6>
@@ -137,7 +137,7 @@ export const Navbar = () => {
                             <div className="icon">
                                 <h5> <HiOutlineShoppingBag /></h5>
                                 <NavLink to="/wishlist">
-                                <p>WishList</p>
+                                    <p>WishList</p>
                                 </NavLink>
                             </div>
                             <div className="icon">

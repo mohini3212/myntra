@@ -54,7 +54,7 @@ export const WomenPg = () => {
                 <div className="container1 ">
 
                     {/*  */}
-                    <div className="d-flex align-items-center justify-content-between" style={{ padding: "3rem 0rem" }}>
+                    <div className="d-flex align-items-center justify-content-between" style={{ padding: "2rem 0rem" }}>
                         <div style={{ marginRight: "7rem" }}>
                             <h6>Home/ Myntra Fashion Store</h6>
                             <h5>Myntra Fashion Store <span>- 2861 items</span></h5>
@@ -62,7 +62,7 @@ export const WomenPg = () => {
 
                         {/*bundle dropdown */}
                         
-                            <div className="d-flex  align-items-center ">
+                            <div className="d-flex1">
                                 <div className="dropdown">
                                     <button
                                         className="btn  dropdown-toggle"

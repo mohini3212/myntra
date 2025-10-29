@@ -53,6 +53,7 @@ export const Deal = () => {
                         768: { slidesPerView: 3 },   // tablets portrait
                         576: { slidesPerView: 2 },   // big phones
                         480: { slidesPerView: 1 },     // small phones
+                        360: { slidesPerView: 1 }, 
                     }}
 
                 >
