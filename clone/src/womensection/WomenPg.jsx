@@ -56,7 +56,7 @@ export const WomenPg = () => {
                     {/*  */}
                     <div className="d-flex align-items-center justify-content-between" style={{ padding: "2rem 0rem" }}>
                         <div style={{ marginRight: "7rem" }}>
-                            <h6>Home/ Myntra Fashion Store</h6>
+                            <h6 style={{ fontWeight: "600" }}>Home/ Myntra Fashion Store</h6>
                             <h5>Myntra Fashion Store <span>- 2861 items</span></h5>
                         </div>
 

@@ -1,6 +1,6 @@
 export const WishList=()=>{
     return(
-        <section className="container">
+        <section className="container mt-4">
             <div className="login-section">
                <h6>PLEASE LOG IN</h6> 
                <p>Login to view items in your wishlist.</p>

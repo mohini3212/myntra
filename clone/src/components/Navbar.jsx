@@ -51,7 +51,7 @@ export const Navbar = () => {
             <div className="container">
                 <div className="nav-section grid grid-two-cols">
 
-                    <div className="d-flex align-items-center nav-link">
+                    <div className="d-flex  nav-link">
                         <div className="logo">
                             <NavLink to="/frontpage">
                                 <img src="images/logo.jpeg" alt="logo-img" />
@@ -105,8 +105,8 @@ export const Navbar = () => {
 
                         {/* Icons */}
                         <div className="header-icon ">
-                            <div className="icon">
-                                <h5 style={{ textAlign: "center", marginRight: "2rem" }}><FaRegHeart /></h5>
+                            <div style={{marginRight:"0rem"}} className="icon">
+                                <h5  style={{ textAlign: "center", marginRight: "2rem" }}><FaRegHeart /></h5>
                                 {/* <p className="profile">Profile</p> */}
                                 {/*  */}
                                 <div className="dropdown">

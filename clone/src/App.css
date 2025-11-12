@@ -194,22 +194,22 @@ height: 70vh;
 
 .logo img {
   width: 6rem;
-  height: 4rem;
-  margin-right: 5rem;
+  height: 6rem;
+  /* margin-right: 5rem; */
 }
 
 /*  */
 .nav-link {
   display: flex;
   align-items: center;
-  justify-content: center;
+  
 }
 
 .nav-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 0rem;
+  padding: 1.2rem 0rem;
   width: 100%;
 
   & nav li {
@@ -356,7 +356,7 @@ height: 70vh;
 
   & img {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     border-radius: 8px;
   }
 }
@@ -702,10 +702,11 @@ height: 70vh;
 
 .rating-info {
   position: absolute;
-  bottom: 26%;
+  bottom: 28%;
   left: 3%;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: white;
   width: 66px;
   padding: 0.2rem 0.4rem;
@@ -847,6 +848,7 @@ footer {
   .rating-info {
     width: 60px;
     padding: 0.2rem 0.4rem;
+    bottom: 35%;
 
     & img {
       width: 12px;
@@ -855,9 +857,9 @@ footer {
   }
 }
 
-@media (width <=1012px) {
+@media (width <=1062px) {
   .rating-info {
-    bottom: 29%;
+    bottom: 39%;
     left: 5%;
   }
 }
@@ -874,7 +876,11 @@ footer {
     grid-template-columns: 1fr;
   }
 
-
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   .input-field {
     justify-content: center;
   }
@@ -889,11 +895,16 @@ footer {
   }
 
   .rating-info {
-    bottom: 24%;
+    bottom: 40%;
     left: 5%;
   }
 }
-
+@media (width <=820px){
+  .rating-info {
+    bottom: 45%;
+    left: 5%;
+  }
+}
 @media (width <=768px) {
   html {
     font-size: 37.5%;
@@ -915,9 +926,21 @@ footer {
   }
 
     .rating-info {
-    bottom: 19%;
+    bottom: 16%;
     left: 5%;
+     width: 50px;
+     padding: 0.3rem ;
+ & img {
+    width: 13px;
+    height: 9px;
+    margin: 0rem 0.4rem;
+    padding-right: 0.4rem;
+    border-right: 1px solid black;
+  }
 
+  & h6 {
+    margin: 0;
+  }
   }
   .swiper-slide img {
     width: 100%;
@@ -925,7 +948,11 @@ footer {
    
   }
 }
-
+@media (width <=636px) {
+.rating-info {
+    bottom: 18%;
+  }
+}
 @media (width <=576px) {
   .grid-four-cols {
     grid-template-columns: 1fr;
@@ -972,7 +999,8 @@ footer {
   margin: 0;
 }
   .rating-info {
-    bottom: 25%;
+    bottom: 11%;
+    left: 4%;
   }
 }
 
@@ -1020,6 +1048,6 @@ footer {
   }
 
   .rating-info {
-    bottom: 15%;
+    bottom: 14%;
   }
 }
