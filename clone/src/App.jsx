@@ -6,7 +6,7 @@ import { Footer } from "./components/Footer";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
-import {  WomenCloth } from "./womensection/WomenCloth";
+import { WomenCloth } from "./womensection/WomenCloth";
 
 import { WomenPg } from "./womensection/WomenPg";
 
@@ -20,28 +20,36 @@ import { WishList } from "./frontpages/Whislist";
 import { KidSection } from "./kidsection/KidSection";
 import { GenzSection } from "./genzsection/GenzSection";
 import { HomeSection } from "./homesection/HomeSection";
+import { ScrollToTop } from "./ScrollToTop";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <AppLayout />,
+    element: (
+      <>
+        <ScrollToTop />
+        <AppLayout />
+
+      </>
+    ),
+
     children: [
 
-    
+
       {
-        path: "/frontpage",
+        path: "/",
         element: <FrontPg />,
       },
-       {
+      {
         path: "/kidspage",
         element: <KidSection />,
       },
-       {
+      {
         path: "/genzpage",
         element: <GenzSection />,
       },
-       {
+      {
         path: "/homepage",
         element: <HomeSection />,
       },
@@ -51,17 +59,17 @@ const router = createBrowserRouter([
       },
       {
         path: "/menfrontpg",
-        element: <MenFrontPg/>, 
+        element: <MenFrontPg />,
       },
-       {
+      {
         path: "/womenfrontpg",
-        element: <WomenFrontpg/>, 
+        element: <WomenFrontpg />,
       },
       {
         path: "/women",
         element: <WomenCloth />,
       },
-        {
+      {
         path: "/men",
         element: <MenCloth />,
       },
@@ -69,15 +77,15 @@ const router = createBrowserRouter([
         path: "/womenp",
         element: <WomenPg />,
       },
-            {
+      {
         path: "/detail",
         element: <AddtoCartw />,
       },
-           {
+      {
         path: "/detailmen",
         element: <AddtoCartm />,
       },
-      
+
     ]
   }
 ])

@@ -51,10 +51,11 @@ export const WomenD = () => {
                             <button className="btn4">Onesize</button>
                         </div>
 
-                        <div className="button ">
+                        <div className="button">
                             <button className="btn2"><HiShoppingBag /> ADD TO CART</button>
                             <button className="btn2"><FaRegHeart /> WHISLIST</button>
                         </div>
+
 
                         {/* seller available */}
                         <div className="price-info">

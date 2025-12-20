@@ -62,7 +62,7 @@ export const MenPg = () => {
                         </div>
 
                         {/*bundle dropdown */}
-                        <div className="d-flex" >
+                        <div className="d-flex1" >
                             <div className="d-flex  align-items-center">
                                 <div className="dropdown">
                                     <button
@@ -394,7 +394,7 @@ export const MenPg = () => {
                         <div className="products grid grid-five-cols">
                             {cardData.map((curElem, index) => (
                                 <NavLink to="/detailmen" key={index}>
-                                <WomenCard key={index} curElem={curElem} />
+                                    <WomenCard key={index} curElem={curElem} />
                                 </NavLink>
                             ))}
 
