@@ -53,7 +53,7 @@ export const Navbar = () => {
 
                     <div className="d-flex  nav-link">
                         <div className="logo">
-                            <NavLink to="/frontpage">
+                            <NavLink to="/">
                                 <img src="images/logo.jpeg" alt="logo-img" />
                             </NavLink>
                         </div>
@@ -105,8 +105,8 @@ export const Navbar = () => {
 
                         {/* Icons */}
                         <div className="header-icon ">
-                            <div style={{marginRight:"0rem"}} className="icon">
-                                <h5  style={{ textAlign: "center", marginRight: "2rem" }}><FaRegHeart /></h5>
+                            <div style={{ marginRight: "0rem" }} className="icon">
+                                <h5 style={{ textAlign: "center", marginRight: "2rem" }}><FaRegHeart /></h5>
                                 {/* <p className="profile">Profile</p> */}
                                 {/*  */}
                                 <div className="dropdown">

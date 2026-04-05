@@ -21,10 +21,10 @@ export const HeroSection = () => {
                 modules={[Autoplay, Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide><img src="images/men-herosection1.jpg" alt="hero-section1" /></SwiperSlide>
-                <SwiperSlide><img src="images/men-herosection2.jpg" alt="hero-section2" /></SwiperSlide>
-                <SwiperSlide><img src="images/men-herosection3.jpg" alt="hero-section3" /></SwiperSlide>
-                <SwiperSlide><img src="images/men-herosection4.jpg" alt="hero-section4" /></SwiperSlide>
+                <SwiperSlide className="slide"><img src="images/men-herosection1.jpg" alt="hero-section1" /></SwiperSlide>
+                <SwiperSlide className="slide"><img src="images/men-herosection2.jpg" alt="hero-section2" /></SwiperSlide>
+                <SwiperSlide className="slide"><img src="images/men-herosection3.jpg" alt="hero-section3" /></SwiperSlide>
+                <SwiperSlide className="slide"><img src="images/men-herosection4.jpg" alt="hero-section4" /></SwiperSlide>
 
             </Swiper>
         </>
